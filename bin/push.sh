@@ -7,5 +7,5 @@ if [ "$TRAVIS_BRANCH" == "master" ]; then
     ./bin/ecs-deploy.sh \
     -n $ECS_SERVICE_NAME \
     -c $ECS_CLUSTER_NAME \
-    -i "$DOCKER_REPO"/"$DOCKER_IMAGE":latest
+    -i docker.repo.com/"$DOCKER_REPO"/"$DOCKER_IMAGE":latest
 fi
